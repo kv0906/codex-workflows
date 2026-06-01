@@ -1,9 +1,9 @@
 ---
-name: codex-dynamic-workflows
+name: codex-workflows
 description: Plan and run AI-agent dynamic workflows for complex tasks that benefit from explicit orchestration, goal mode, subagents or simulated work packets, approval gates, integration, verification, and reusable workflow artifacts. Use when the user invokes this skill, asks for a swarm, subagents, parallel agents, a dynamic workflow, a large migration or audit, multi-track research plus implementation, or Claude Code-style workflow orchestration.
 ---
 
-# AI Agent Dynamic Workflows
+# Codex Workflows
 
 Use this skill to turn a large task into a supervised AI-agent workflow: draft an orchestration artifact, gather grounded context, choose a clear run model, enter goal mode when sustained execution is requested, delegate disjoint work to subagents when available, integrate evidence-backed results, verify the outcome, and save reusable workflow artifacts.
 
@@ -57,7 +57,7 @@ Prefer creating a local run directory:
 Use `scripts/new_workflow.py` to scaffold this structure:
 
 ```bash
-python3 /path/to/codex-dynamic-workflows/scripts/new_workflow.py "Task title"
+python3 /path/to/codex-workflows/scripts/new_workflow.py "Task title"
 ```
 
 Keep `plan.md` human-readable. Use `state.json` for status, context status, run model, packet IDs, approval state, synthesis state, and verification state. Use `context-manifest.md` as the source handoff: goal terms, queries, tools used, unavailable tools, selected sources, external docs checked, confidence, and unknowns. Use `orchestration.md` as the executable mental model: the sequence the agent will follow, the branching rules, phase transitions, fan-out/fan-in groups, failure handling, and packet prompts.
@@ -245,7 +245,7 @@ Before the final answer, run a synthesis gate:
 Use `scripts/collect_results.py` to produce an integration checklist from result files:
 
 ```bash
-python3 /path/to/codex-dynamic-workflows/scripts/collect_results.py .workflow/<slug>
+python3 /path/to/codex-workflows/scripts/collect_results.py .workflow/<slug>
 ```
 
 ## Verification
@@ -266,7 +266,7 @@ Run the narrowest reliable checks first, then broaden as risk warrants:
 Use `scripts/verify_workflow.py` to check workflow artifact completeness:
 
 ```bash
-python3 /path/to/codex-dynamic-workflows/scripts/verify_workflow.py .workflow/<slug>
+python3 /path/to/codex-workflows/scripts/verify_workflow.py .workflow/<slug>
 ```
 
 Report skipped checks honestly. Do not treat a workflow as complete until the evidence proves the original success criteria.

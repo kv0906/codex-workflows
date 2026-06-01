@@ -7,7 +7,7 @@ Use these examples to forward-test this skill.
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to fix a typo in README.md.
+Use $codex-workflows to fix a typo in README.md.
 ```
 
 Expected behavior:
@@ -22,7 +22,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to migrate all API clients from REST to GraphQL and delete the old client.
+Use $codex-workflows to migrate all API clients from REST to GraphQL and delete the old client.
 ```
 
 Expected behavior:
@@ -37,7 +37,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to add SSO support. Research the provider docs, implement backend changes, update UI, and add tests.
+Use $codex-workflows to add SSO support. Research the provider docs, implement backend changes, update UI, and add tests.
 ```
 
 Expected behavior:
@@ -52,7 +52,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to audit this repo for slow startup and fix the biggest issue.
+Use $codex-workflows to audit this repo for slow startup and fix the biggest issue.
 ```
 
 Expected behavior:
@@ -67,7 +67,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to review this feature for security and reliability risks.
+Use $codex-workflows to review this feature for security and reliability risks.
 ```
 
 Expected behavior:
@@ -81,7 +81,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to find how checkout sessions are created and update the retry behavior.
+Use $codex-workflows to find how checkout sessions are created and update the retry behavior.
 ```
 
 Expected behavior:
@@ -97,7 +97,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to implement the behavior described in /docs for the new ingestion workflow.
+Use $codex-workflows to implement the behavior described in /docs for the new ingestion workflow.
 ```
 
 Expected behavior:
@@ -112,7 +112,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to upgrade the app to the latest auth SDK behavior.
+Use $codex-workflows to upgrade the app to the latest auth SDK behavior.
 ```
 
 Expected behavior:
@@ -127,7 +127,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to audit this repo with CodeGraph, QMD, DeepWiki, and Context7.
+Use $codex-workflows to audit this repo with CodeGraph, QMD, DeepWiki, and Context7.
 ```
 
 Expected behavior:
@@ -143,7 +143,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to review this payment feature for security, reliability, and docs risks.
+Use $codex-workflows to review this payment feature for security, reliability, and docs risks.
 ```
 
 Expected behavior:
@@ -159,7 +159,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to migrate three API clients to the new SDK.
+Use $codex-workflows to migrate three API clients to the new SDK.
 ```
 
 Expected behavior:
@@ -174,7 +174,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Use $codex-dynamic-workflows to audit startup performance with parallel packets.
+Use $codex-workflows to audit startup performance with parallel packets.
 ```
 
 Expected behavior:
